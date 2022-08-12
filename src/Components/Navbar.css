@@ -1,0 +1,51 @@
+.login{
+    background-color: #239586;
+    border-color: #239586;
+    font-weight: bold;
+    min-width: 150px;
+    max-height: 45px;
+    border-width: 3px;
+    border-radius: 20px;
+  }
+
+button.login:hover{
+    border-color: #239586;
+    color: #239586;
+    background-color: #fff;
+}
+
+.plans, .help_support, .branch_near  {
+    color: #000000;
+    font-size: calc(.6em + .7vw);
+}
+
+.register {
+    color: #239586;
+    font-weight: bold;
+    font-size: calc(.6em + .7vw);
+}
+
+.plans:hover, .help_support:hover, .branch_near:hover  {
+    color: #239586;
+}
+
+.d-block{
+    object-fit:cover;
+    object-position:50% 50%;
+    width: auto;
+    height: 2800px;
+    max-height: 320px;
+}
+
+.card {
+    margin: 50 auto; 
+    float: none; 
+    margin-bottom: 10px;
+    max-width: 50rem;
+}
+
+.info {
+    text-align: left;
+    max-width: 15px;
+    max-height: fit-content;
+}

@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavbarComponent from './Components/NavbarComponent';
+import FeaturesTab from './Components/FeaturesTabComponent';
+
 function App() {
+  const paddingTop = {paddingTop: 10}
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavbarComponent />
+      <p style={paddingTop}>To get things done conveniently, check out our Quick Links!</p>
+      <FeaturesTab />
     </div>
   );
 }

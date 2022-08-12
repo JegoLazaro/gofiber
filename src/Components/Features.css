@@ -1,0 +1,53 @@
+.checkAvTab, .applyNowTab, .payHereTab, .checkStatusTab {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 600;
+    color: #3b1aaa;
+    font-size: calc(.6em + .45vw);
+    flex-wrap: nowrap;
+    /*align-content: center;*/
+}
+
+
+.checkAvTab:hover, .applyNowTab:hover, .payHereTab:hover, .checkStatusTab:hover  {
+    background-color: #239586 !important;
+    color: #fff !important;
+}
+
+.checkAv, .applyNow, .payHere, .checkStatus {
+    font-size: calc(0.5em + .45vw);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
+
+.checkAvForm {
+    font-size: medium;
+    text-align: left;
+}
+
+.cards {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checkBox {
+    font-size: 11px;
+    padding-right: 40px;
+}
+.continue{
+    margin-left: 80px ;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    border-radius: 20px;
+    font-size: large;
+    background-color: #239586;
+    border-color: #239586;
+    font-weight: bold;
+}
+
+.continue:hover{
+    border-color: #239586;
+    color: #239586;
+    background-color: #fff;
+}
