@@ -1,0 +1,22 @@
+.cards-plans-txt {
+    height: 18rem;
+    padding-top: 55px;
+    
+    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586 !important;
+}
+
+.cards-plans-img {
+    border: none;
+    height: 18rem;
+}
+
+.plans-cards {
+    width: 18rem;
+}
+
+.plans-btn{
+    width: 13rem;
+}
+.card-btn:hover {
+    background-color: #fff;
+}

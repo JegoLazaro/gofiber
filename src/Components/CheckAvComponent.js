@@ -1,4 +1,5 @@
 import {Form, FloatingLabel, Row, Col, Button} from 'react-bootstrap';
+import './Features.css';
 
 function CheckAvailComp() {
   return (
@@ -6,25 +7,25 @@ function CheckAvailComp() {
       <Form className='checkAvForm'>
           <Row>
             <Col>
-              <FloatingLabel controlId="floatingInput" label="First Name" className="fNameForm mb-3">
-                  <Form.Control type="name" placeholder="First Name" />
+              <FloatingLabel controlId="floatingInput" label="First Name" className="mb-3">
+                  <Form.Control type="name" className="fNameForm" placeholder="First Name" />
               </FloatingLabel>
               </Col>
               <Col>
-              <FloatingLabel controlId="floatingInput" label="Last Name" className='lNameForm'>
-                  <Form.Control type="name" placeholder="Last Name" />
+              <FloatingLabel controlId="floatingInput" label="Last Name" >
+                  <Form.Control type="name" className="lNameForm" placeholder="Last Name" />
               </FloatingLabel>
               </Col>
           </Row>
           <Row>
             <Col>
-              <FloatingLabel controlId="floatingInput" label="Mobile Number" className="mobNumberForm mb-3" >
-                  <Form.Control type='tel' defaultValue="+ 63 "/>
+              <FloatingLabel controlId="floatingInput" label="Mobile Number" className=" mb-3" >
+                  <Form.Control type='tel' className="mobNumberForm" defaultValue="+ 63 "/>
               </FloatingLabel>
               </Col>
               <Col>
-              <FloatingLabel controlId="floatingInput" label="Email" className='emailForm'>
-                  <Form.Control type="email" placeholder="Email" />
+              <FloatingLabel controlId="floatingInput" label="Email" >
+                  <Form.Control type="email" className='emailForm'placeholder="Email" />
               </FloatingLabel>
               </Col>
           </Row>

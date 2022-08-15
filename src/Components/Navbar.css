@@ -5,8 +5,16 @@
     min-width: 150px;
     max-height: 45px;
     border-width: 3px;
-    border-radius: 20px;
-  }
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.login:focus {
+    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586 !important;
+    background-color: #fff;
+    color: #239586;
+    border-color: #239586;
+}
 
 button.login:hover{
     border-color: #239586;
@@ -16,13 +24,15 @@ button.login:hover{
 
 .plans, .help_support, .branch_near  {
     color: #000000;
-    font-size: calc(.6em + .7vw);
+    font-size: 15px;
+    /*font-size: calc(.6em + .5vw);*/
 }
 
 .register {
     color: #239586;
-    font-weight: bold;
-    font-size: calc(.6em + .7vw);
+    font-weight:bold;
+    font-size: 15px;
+    /*font-size: calc(.6em + .5vw);*/
 }
 
 .plans:hover, .help_support:hover, .branch_near:hover  {
@@ -30,18 +40,20 @@ button.login:hover{
 }
 
 .d-block{
+    image-rendering:optimizeQuality;
     object-fit:cover;
     object-position:50% 50%;
     width: auto;
     height: 2800px;
     max-height: 320px;
+    border-radius: 4px;
 }
 
 .card {
     margin: 50 auto; 
     float: none; 
     margin-bottom: 10px;
-    max-width: 50rem;
+    max-width: 60rem;
 }
 
 .info {

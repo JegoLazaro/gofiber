@@ -2,12 +2,11 @@
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: 600;
-    color: #3b1aaa;
-    font-size: calc(.6em + .45vw);
+    color: #250353;
+    font-size: 14px;
     flex-wrap: nowrap;
     /*align-content: center;*/
 }
-
 
 .checkAvTab:hover, .applyNowTab:hover, .payHereTab:hover, .checkStatusTab:hover  {
     background-color: #239586 !important;
@@ -15,15 +14,71 @@
 }
 
 .checkAv, .applyNow, .payHere, .checkStatus {
-    font-size: calc(0.5em + .45vw);
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.p-text {
+    font-size: 13px;
     padding-left: 80px;
     padding-right: 80px;
-    padding-bottom: 20px;
 }
 
 .checkAvForm {
+    padding-left: 80px;
+    padding-right: 80px;
     font-size: medium;
     text-align: left;
+}
+
+.referenceNumber {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: medium;
+    text-align: left;
+}
+
+.continueRefNo{
+    margin-top: 20px;
+    margin-left: 35%;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    border-radius: 20px;
+    border-width: 2px;
+    font-size: large;
+    background-color: #239586;
+    border-color: #239586;
+    font-weight: bold;
+}
+
+.continueRefNo:focus{
+    border-color: #239586;
+    color: #239586;
+    background-color: #fff;
+    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586 !important;
+}
+
+.continueRefNo:hover{
+    border-color: #239586;
+    color: #239586;
+    background-color: #fff;
+}
+  
+.fNameForm, .lNameForm, .mobNumberForm, .emailForm {
+    border-color: #239586;
+}
+
+.fNameForm:focus, .lNameForm:focus, .mobNumberForm:focus,.emailForm:focus {
+    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586;
+}
+
+.refNum{
+    border-color: #239586;
+}
+
+.refNum:focus {
+    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586;
 }
 
 .cards {
@@ -40,14 +95,94 @@
     padding-left: 30px ;
     padding-right: 30px ;
     border-radius: 20px;
+    border-width: 2px;
     font-size: large;
     background-color: #239586;
     border-color: #239586;
     font-weight: bold;
 }
 
+.continue:focus, .checkBox:focus {
+    border-color: #239586;
+    color: #239586;
+    background-color: #fff;
+    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586 !important;
+}
+
 .continue:hover{
     border-color: #239586;
     color: #239586;
     background-color: #fff;
+}
+
+a:link {
+    text-decoration: none;
+    color: #239586;
+    font-weight:900;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #239586;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  /*------------------ View Plans Component CSS----------------------*/
+
+.view-plans-container{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.view-plans-card{
+    display:inline-flex;
+    align-items: center;
+    border: none;
+}
+
+h2{
+    margin-bottom: 35px;
+    color: #250353;
+    font-weight: 900;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*------------------ FAQs Component CSS----------------------*/
+.faq-container {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+
+.faq-ans {
+    background-color: #c3fff7;
+    text-align: left;
+    font-size: small;
+    padding-left: 118px;
+    padding-right: 118px;
+}
+
+.faq-btn {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.faq-header {
+    color: #239586 !important;
+}
+
+
+/*------------------ Footer Component CSS----------------------*/
+
+.footer-navbar {
+    /* background-color: #250353; */
+    background-color: #250353;
 }

@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat' !important;
   color: black;
   font-weight:lighter;
 }
