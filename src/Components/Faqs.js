@@ -1,10 +1,19 @@
-import {Accordion, Container, Button} from 'react-bootstrap';
+import {Accordion, Container, Button, Form} from 'react-bootstrap';
 import './Features.css'
 
 function FaqComp() {
   return (
     <>
         <Container className="faq-container">
+        <Form className="d-flex search-container">
+            <Form.Control
+              type="search"
+              placeholder="Search in with keyword for question"
+              className="me-2 search-box"
+              aria-label="Search in with keyword"
+            />
+            <Button className='search'>Search</Button>
+          </Form>
             <Accordion>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header className='faq-header' >My payment has already been credited, how do I follow-up on my installation?</Accordion.Header>

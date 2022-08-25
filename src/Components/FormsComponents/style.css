@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+* {
+  box-sizing: border-box;
+}
+
+.container-div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-card {
+    display: grid;
+    place-items: center;
+    width: 38rem;
+    height: 43rem;
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: #250353 !important;
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 900;
+  font-family: 'Montserrat' !important;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+
+.email-form, .password-form, .checkbox-form {
+    width: 28rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px ;
+}
+
+.logo {
+    width: 12rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    border-radius: 50px;
+    border-color: #239586;
+    color: #fff;
+    background-color: #239586 !important;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 28rem;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat' !important;
+}
+
+.login-btn:focus{
+    border-color: #239586;
+    color: #239586;
+    background-color: #fff;
+    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586 !important;
+}
+
+.login-btn:hover, .login-btn:active{
+    border-color: #239586;
+    color: #239586;
+    background-color: #fff !important;
+}
+
+.forgot-pw, .register-link, .how-to-login {
+    text-align: center;
+    font-family: 'Montserrat' !important;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    font-size: 15px;
+    color: #239586;
+}
+
+.welcome {
+    margin-left: 20px;
+}
+
+.p {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+
+
+.new-converge{
+    font-family: 'Montserrat' !important;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+
+/* -------------- FORMS CSS -------------- */
+
+.p-text {
+    font-size: 13px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.checkAvForm {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: medium;
+    text-align: left;
+}
+
+.fNameForm, .lNameForm, .mobNumberForm, .emailForm {
+    border-color: #239586;
+}
+
+.fNameForm:focus, .lNameForm:focus, .mobNumberForm:focus,.emailForm:focus {
+    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586;
+}
+

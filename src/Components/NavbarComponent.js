@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import { Nav, Navbar, Carousel, Container, Button, Offcanvas, OverlayTrigger, Tooltip, Image } from 'react-bootstrap'
 import './Navbar.css';
+import { useNavigate, Link }  from 'react-router-dom';
 
-export default class NavbarComponent extends Component {
-  render() {
+function NavbarComponent()  {
+    let navigate = useNavigate();
+
     return (
       <div>
         {['sm'].map((expand) => (
@@ -23,11 +25,11 @@ export default class NavbarComponent extends Component {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className=" justify-content-end flex-grow-1 pe-3" style={{fontFamily: 'Montserrat'}}>
-                  <Nav.Link className="plans" href="#plans">PLANS</Nav.Link>
-                  <Nav.Link className="help_support" href="#help_support">HELP & SUPPORT</Nav.Link>
-                  <Nav.Link className="branch_near" href="#branch">BRANCH NEAR ME</Nav.Link>
+                  <Nav.Link className="plans" href="https://gofiber.ph/plans">PLANS</Nav.Link>
+                  <Nav.Link className="help_support" href="https://gofiber.ph/help">HELP & SUPPORT</Nav.Link>
+                  <Nav.Link className="branch_near" href="https://gofiber.ph/branches">BRANCH NEAR ME</Nav.Link>
                   
-                  <Nav.Link className="register" href="#register">
+                  <Nav.Link className="register" as={Link} to="/register">
                     REGISTER 
                     <OverlayTrigger
                     placement="bottom"
@@ -47,7 +49,9 @@ export default class NavbarComponent extends Component {
                   </Nav.Link>
                   
                 </Nav>
-                <Button variant="primary" style={{fontFamily: 'Montserrat'}} className="login d-grid gap-2">LOGIN</Button>
+                <Button variant="primary" style={{fontFamily: 'Montserrat'}} className="login d-grid gap-2" onClick={() => {
+            navigate("/login");
+        }}>LOGIN</Button>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
@@ -80,4 +84,5 @@ export default class NavbarComponent extends Component {
       </div>
     )
   }
-}
+
+export default NavbarComponent;

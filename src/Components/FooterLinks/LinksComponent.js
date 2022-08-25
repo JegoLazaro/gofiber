@@ -4,8 +4,7 @@ import './Links.css'
 function LinksComponent(props) {
   return (
     <>
-      <Button className="links-btn"  variant="outline-primary">{props.btn}</Button>{' '}
-      
+      <Button className="links-btn"  variant="success">{props.btn}</Button>{' '}
     </>
   );
 }

@@ -1,3 +1,15 @@
 .links-btn {
     border-radius: 50px;
+    border-color: #fff;
+    color: #239586;
+    background-color: #250353 !important;
+    font-weight: bold;
+    font-size: 11px;
+    padding-left: auto;
+    padding-right: auto;
 }
+
+.links-btn :hover{
+    border-color: #239586 !important;
+}
+/* © */
