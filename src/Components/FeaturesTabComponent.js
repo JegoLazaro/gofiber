@@ -1,6 +1,6 @@
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import {Container, Card, Form, FloatingLabel, Row, Col, Button} from 'react-bootstrap';
+import {Container, Card, OverlayTrigger, Tooltip, Image} from 'react-bootstrap';
 import { createRipples } from 'react-ripples'
 import {Link} from 'react-router-dom';
 import './Features.css';
@@ -20,9 +20,10 @@ function FeaturesTab() {
           id="fill-tab-example"
           className="tabs mb-3"
           fill
+          TabIndicatorProps
         >
           <Tab eventKey="checkAvailability" title="Check Availability" tabClassName='checkAvTab' className='checkAv'>
-            <p className='p-text'>Get the internet that you deserve! Let’s start with your basic details!</p>
+            <p className='p-text'>Check the availability of our services in your area, and get the internet that you deserve! Let’s start with your basic details!</p>
             <CheckAvailComp/>
           </Tab>
           <Tab eventKey="applyNow" title="Apply Now" tabClassName='applyNowTab' className='applyNow'>

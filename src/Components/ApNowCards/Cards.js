@@ -1,4 +1,5 @@
 import {Card, Form, Button} from 'react-bootstrap';
+import {Link} from 'react-router-dom'
 import './Cards.css'
 
 function Cards(props) {
@@ -17,7 +18,7 @@ function Cards(props) {
                 
             </Card.Body>
             <Card.Header className='card-header' > 
-            <Button size='md' className='card-btn'>{props.title}</Button>
+            <a href={props.link}><Button size='md' className='card-btn'>{props.title}</Button></a>
             </Card.Header>
         </Card>
     </>

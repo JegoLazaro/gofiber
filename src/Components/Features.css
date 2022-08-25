@@ -1,15 +1,29 @@
+ .tabs {
+    border-width: 2px;
+    border-color: #24ab99;
+}
+
 .checkAvTab, .applyNowTab, .payHereTab, .checkStatusTab {
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: 600;
-    color: #250353;
-    font-size: 14px;
+    color: #239586;
+    font-size: 12px;
     flex-wrap: nowrap;
-    /*align-content: center;*/
 }
 
 .checkAvTab:hover, .applyNowTab:hover, .payHereTab:hover, .checkStatusTab:hover  {
-    background-color: #239586 !important;
+    background-color: #24ab99 !important;
+    color: #fff !important;
+}
+
+.checkAvTab:focus, .applyNowTab:focus, .payHereTab:focus, .checkStatusTab:focus{
+    color: #fff !important;
+    background-color: #24ab99 !important;
+    font-weight: 900;
+}
+
+.checkAvTab:focus:hover, .applyNowTab:focus:hover, .payHereTab:focus:hover, .checkStatusTab:focus:hover {
     color: #fff !important;
 }
 
@@ -47,38 +61,39 @@
     border-radius: 20px;
     border-width: 2px;
     font-size: large;
-    background-color: #239586;
-    border-color: #239586;
+    background-color: #24ab99;
+    border-color: #24ab99;
     font-weight: bold;
 }
 
 .continueRefNo:focus{
-    border-color: #239586;
-    color: #239586;
+    border-color: #24ab99;
+    color: #24ab99;
     background-color: #fff;
-    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586 !important;
+    box-shadow:0px 1px 1px #24ab99 inset, 0px 0px 8px #24ab99 !important;
 }
 
 .continueRefNo:hover{
-    border-color: #239586;
-    color: #239586;
+    border-color: #24ab99;
+    color: #24ab99;
     background-color: #fff;
 }
   
 .fNameForm, .lNameForm, .mobNumberForm, .emailForm {
-    border-color: #239586;
+    font-size: small;
+    border-color: #24ab99;
 }
 
 .fNameForm:focus, .lNameForm:focus, .mobNumberForm:focus,.emailForm:focus {
-    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586;
+    box-shadow:0px 1px 1px #24ab99 inset, 0px 0px 8px #24ab99;
 }
 
 .refNum{
-    border-color: #239586;
+    border-color: #24ab99;
 }
 
 .refNum:focus {
-    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586;
+    box-shadow:0px 1px 1px #24ab99 inset, 0px 0px 8px #24ab99;
 }
 
 .cards {
@@ -90,6 +105,7 @@
     font-size: 11px;
     padding-right: 40px;
 }
+
 .continue{
     margin-left: 80px ;
     padding-left: 30px ;
@@ -97,33 +113,33 @@
     border-radius: 20px;
     border-width: 2px;
     font-size: large;
-    background-color: #239586;
-    border-color: #239586;
+    background-color: #24ab99;
+    border-color: #24ab99;
     font-weight: bold;
 }
 
 .continue:focus, .checkBox:focus {
-    border-color: #239586;
-    color: #239586;
+    border-color: #24ab99;
+    color: #24ab99;
     background-color: #fff;
-    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586 !important;
+    box-shadow:0px 1px 1px #24ab99 inset, 0px 0px 8px #24ab99 !important;
 }
 
 .continue:hover{
-    border-color: #239586;
-    color: #239586;
+    border-color: #24ab99;
+    color: #24ab99;
     background-color: #fff;
 }
 
 a:link {
     text-decoration: none;
-    color: #239586;
+    color: #24ab99;
     font-weight:900;
   }
   
   a:visited {
     text-decoration: none;
-    color: #239586;
+    color: #24ab99;
   }
   
   a:hover {
@@ -149,10 +165,10 @@ a:link {
 
 h2{
     margin-bottom: 35px;
-    color: #250353;
+    color: #2f006d;
     font-weight: 900;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /*------------------ FAQs Component CSS----------------------*/
@@ -163,7 +179,7 @@ h2{
 
 .search-box {
     border-width: 3px;
-    box-shadow:0px 1px 1px #239586 , 0px 0px 5px #239586 !important;
+    box-shadow:0px 1px 1px #24ab99 , 0px 0px 5px #24ab99 !important;
 }
 
 .search-container {
@@ -177,21 +193,21 @@ h2{
     border-radius: 20px ;
     border-width: 2px;
     font-size: large;
-    background-color: #239586;
-    border-color: #239586;
+    background-color: #24ab99;
+    border-color: #24ab99;
     font-weight: bold;
 }
 
 .search:focus {
-    border-color: #239586;
-    color: #239586;
+    border-color: #24ab99;
+    color: #24ab99;
     background-color: #fff;
-    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586 !important;
+    box-shadow:0px 1px 1px #24ab99 inset, 0px 0px 8px #24ab99 !important;
 }
 
 .search:hover{
-    border-color: #239586;
-    color: #239586;
+    border-color: #24ab99;
+    color: #24ab99;
     background-color: #fff;
 }
 
@@ -216,8 +232,6 @@ h2{
 /*------------------ Footer Component CSS----------------------*/
 
 .footer-navbar {
-    /* background-color: #250353; */
-    /* border-radius: 3px; */
     padding-top: 20px;
     background-color: #250353;
     max-height:  fit-content ;
@@ -244,9 +258,3 @@ h2{
 .links {
     margin-top: 15px;
 }
-
-/* 
-.footer-logo {
-    margin-bottom: 20px;
-    margin-left: auto;
-} */

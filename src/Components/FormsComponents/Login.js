@@ -40,7 +40,7 @@ function Login() {
         <div className='container-div'>
             <Card className='container-card'>
                 <Form>
-                    <Link to='/'><Image src='./images/Converge_ICT_logo.png' className='logo'/></Link>
+                    <Link to='/'><Image src='./images/Converge_ICT_logo.png' className='logo'/>
                     <OverlayTrigger
                         placement="bottom"
                         overlay={<Tooltip id="button-tooltip-2" variant="light">Click here to check availability in your area.</Tooltip>}
@@ -56,6 +56,7 @@ function Login() {
                             />
                         )}
                         </OverlayTrigger>
+                    </Link>
                         
                     <h4 className='welcome'>Welcome to Converge</h4>
                     <p className='p'>For old Xperience app users and new Converge account, please register a new account.</p>

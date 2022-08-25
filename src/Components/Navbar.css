@@ -1,6 +1,6 @@
 .login{
-    background-color: #239586;
-    border-color: #239586;
+    background-color: #24ab99;
+    border-color: #24ab99;
     font-weight: bold;
     min-width: 150px;
     max-height: 45px;
@@ -10,22 +10,21 @@
 }
 
 .login:focus {
-    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586 !important;
+    box-shadow:0px 1px 1px #24ab99 inset, 0px 0px 8px #24ab99 !important;
     background-color: #fff;
-    color: #239586;
-    border-color: #239586;
+    color: #24ab99;
+    border-color: #24ab99;
 }
 
 button.login:hover{
-    border-color: #239586;
-    color: #239586;
+    border-color: #24ab99;
+    color: #24ab99;
     background-color: #fff;
 }
 
 .plans, .help_support, .branch_near  {
     color: #000000;
     font-size: 15px;
-    /*font-size: calc(.6em + .5vw);*/
 }
 
 .register {
@@ -35,8 +34,8 @@ button.login:hover{
     /*font-size: calc(.6em + .5vw);*/
 }
 
-.plans:hover, .help_support:hover, .branch_near:hover  {
-    color: #239586;
+.plans:hover, .help_support:hover, .branch_near:hover, .register:hover  {
+    color: #000000;
 }
 
 .d-block{

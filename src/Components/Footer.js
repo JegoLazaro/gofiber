@@ -30,7 +30,7 @@ function FooterComponent() {
                   
                 </Col>
           </Row>
-          <Navbar.Brand href="#home" sticky="left">
+          <Navbar.Brand href="/" sticky="left">
             <img
               src="/images/gofiber_logo.png"
               width="130"
@@ -44,20 +44,20 @@ function FooterComponent() {
       <Navbar className='footer-navbar copyright'>
         <Container>
         <Row className='copyright-txt'>
-        <Col xs={6} md={4}>
-            © 2022 Converge ICT Solutions Inc. All rights reserved. 
+            <Col xs={6} md={4}>
+              © 2022 Converge ICT Solutions Inc. All rights reserved. 
             </Col>
             <Col >
-                 <a href='#' className='policies'> Privacy Policy</a>
+                 <a href='https://gofiber.ph/privacy-notice' className='policies'> Privacy Policy</a>
             </Col>
             <Col>
-                 <a href='#' className='policies'> Terms & Conditions</a>
+                 <a href='https://gofiber.ph/termsandconds' className='policies'> Terms & Conditions</a>
             </Col>
             <Col>
-                 <a href='#' className='policies'> Cookies Policy</a>
+                 <a href='https://gofiber.ph/cookie-policy' className='policies'> Cookies Policy</a>
             </Col>
             <Col>
-                 <a href='#' className='policies'> Terms of Use</a> 
+                 <a href='https://gofiber.ph/cookie-policy' className='policies'> Terms of Use</a> 
             </Col>
           </Row>
         </Container>

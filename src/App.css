@@ -42,3 +42,11 @@
     transform: rotate(360deg);
   }
 }
+
+h1, h2{
+  color: #2f006d;
+}
+h1{
+  margin-left: 20px;
+  margin-right: 20px;
+}

@@ -20,7 +20,8 @@
 }
 
 body {
-    background-color: #250353 !important;
+    /* background-color: #250353 !important; */
+    background-image: url('/public/images/bg.jpg');
     height: 100%;
     
     background-position: center;
@@ -54,9 +55,9 @@ body, html {
 
 .login-btn {
     border-radius: 50px;
-    border-color: #239586;
+    border-color: #24ab99;
     color: #fff;
-    background-color: #239586 !important;
+    background-color: #24ab99 !important;
     font-weight: bold;
     font-size: 18px;
     padding-left: auto;
@@ -68,15 +69,15 @@ body, html {
 }
 
 .login-btn:focus{
-    border-color: #239586;
-    color: #239586;
+    border-color: #24ab99;
+    color: #24ab99;
     background-color: #fff;
-    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586 !important;
+    box-shadow:0px 1px 1px #24ab99 inset, 0px 0px 8px #24ab99 !important;
 }
 
 .login-btn:hover, .login-btn:active{
-    border-color: #239586;
-    color: #239586;
+    border-color: #24ab99;
+    color: #24ab99;
     background-color: #fff !important;
 }
 
@@ -86,7 +87,7 @@ body, html {
     margin-left: 20px;
     margin-bottom: 70px;
     font-size: 15px;
-    color: #239586;
+    color: #24ab99;
 }
 
 .welcome {
@@ -123,10 +124,10 @@ body, html {
 }
 
 .fNameForm, .lNameForm, .mobNumberForm, .emailForm {
-    border-color: #239586;
+    border-color: #24ab99;
 }
 
 .fNameForm:focus, .lNameForm:focus, .mobNumberForm:focus,.emailForm:focus {
-    box-shadow:0px 1px 1px #239586 inset, 0px 0px 8px #239586;
+    box-shadow:0px 1px 1px #24ab99 inset, 0px 0px 8px #24ab99;
 }
 

@@ -7,8 +7,8 @@ import './Features.css'
 function ViewPlansComponent() {
   return (
     <>
-        <Container md="auto" className="view-plans-container mx-auto " >
-          <h2>ALL THE MORE REASONS TO LOVE CONVERGE FIBER INTERNET EXPERIENCE</h2>
+        <Container md="auto" className="view-plans-container  " >
+          <h1>ALL THE MORE REASONS TO LOVE CONVERGE FIBER INTERNET EXPERIENCE</h1>
           <Card className="view-plans-card">
             <Row className="justify-content-around row-plans " >
                   <Col md="auto" className="" >

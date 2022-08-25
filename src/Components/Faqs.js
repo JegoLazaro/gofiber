@@ -1,9 +1,13 @@
 import {Accordion, Container, Button, Form} from 'react-bootstrap';
 import './Features.css'
+import { useNavigate} from 'react-router-dom'
 
 function FaqComp() {
+let navigate = useNavigate();
+
   return (
     <>
+    <h1>WE'RE HERE TO HELP YOU MAXIMIZE YOUR PURE FIBER EXPERIENCE!</h1>
         <Container className="faq-container">
         <Form className="d-flex search-container">
             <Form.Control
@@ -44,7 +48,8 @@ function FaqComp() {
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
-            <Button className='card-btn plans-btn faq-btn' variant="primary">VIEW ALL FAQS</Button>
+            <Button className='card-btn plans-btn faq-btn' variant="primary" onClick={() => {
+            navigate("/login")}}>VIEW ALL FAQS</Button>
         </Container>
     </>
   );

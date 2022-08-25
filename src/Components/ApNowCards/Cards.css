@@ -2,10 +2,11 @@
     width: 12rem;
     border-width: 2px;
     border-color: rgb(139, 139, 139);
-    margin-left: 10px;
+    margin-left: 2px;
     display:inline-flex !important;
     flex-wrap: nowrap;
-    border-color: #239586;
+    border-color: #24ab99;
+    background-color: #fff !important;
 }
 
 
@@ -24,8 +25,8 @@
     font-size: 15px;
     font-weight: bold;
     border-radius: 30px;
-    border-color: #239586;
-    background-color: #239586;
+    border-color: #24ab99;
+    background-color: #24ab99;
     border-width: 2px;
     padding-left: 25px;
     padding-right: 25px;
@@ -33,8 +34,8 @@
 
 .card-btn:hover {
     background-color: rgb(232, 232, 232);
-    color: #239586;
-    border-color: #239586;
+    color: #24ab99;
+    border-color: #24ab99;
 }
 
 .card-text {
